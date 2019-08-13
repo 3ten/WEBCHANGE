@@ -1,0 +1,9 @@
+.dataTables_filter {
+    width:100%;
+    display: none;
+    background: #F1F2FC;
+}
+.dataTables_info {
+    display: none;
+
+}

@@ -1,0 +1,80 @@
+/*Стиль - Модуля админки головсования  */
+/*Поправим сслыки */
+
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+A:link {
+    text-decoration: none; /* ”бирает подчеркивание дл¤ ссылок */
+    outline: none;
+    color: white;
+}
+
+A:visited {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+A:active {
+    text-decoration: none;
+    outline: none;
+    color: white;
+}
+
+A:hover {
+    outline: none;
+    text-decoration: none; /* ?елает ссылку подчеркнутой при наведении на нее курсора */
+    color: white; /* ?вет ссылки */
+}
+.col-lg-12{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+.col-lg-10{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 5px 0px 5px;
+            }
+.col-lg-2{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+.col-lg-3{
+    margin: 0px 0px 0px 0px;
+    padding: 3px 10px 3px 10px;
+}
+.col-lg-8{
+    margin: 15px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+.col-lg-4{
+    margin: 15px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+}
+/**********************************************************************************************************************/
+                                   /*Пользовательский стили*/
+/**********************************************************************************************************************/
+/*Линиая заголовка страницы */
+.top_header {
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 10px 0px 10px;
+    background: #252F48;
+    display: block;
+    height: 50px;
+    z-index: 99999999;
+    line-height: 50px;
+    color: white;
+    font-size: 25px;
+    border-bottom: 3px solid #8DD1DE;
+    position: fixed;
+}
+.view_desctop{
+    margin: 0px 0px 20px 0px;
+    padding: 0px 15px 0px 15px;
+}
+.modalInput{
+    border:1px solid ;
+}
+

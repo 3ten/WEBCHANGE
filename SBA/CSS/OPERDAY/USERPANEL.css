@@ -1,0 +1,59 @@
+.dws-menu {
+
+ width: 100%;
+ margin: 0px 0px 0px 0px;
+
+}
+.dws-menu ul,
+.dws-menu ol{
+ list-style: none;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+
+}
+.dws-menu > ul li > a i.fa{
+
+ font-size: 18px;
+
+}
+.dws-menu > ul li a{
+ display: block;
+
+ font-size: 12px;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 20px;
+ height:30px;
+ line-height:30px;
+}
+.dws-menu li a:hover{
+ color: #ffffff;
+
+}
+/*sub menu*/
+.dws-menu li ul{
+ display: none;
+ text-align: left;
+ width: 100%;
+ margin: 0px 0px 0px 0px;
+ padding: 0px 0px 0px 0px;
+ height:30px;
+ line-height:30px;
+
+
+}
+.dws-menu li > ul li{
+ border: 1px solid white;
+}
+.dws-menu li > ul li a{
+ text-transform: none;
+ background: #252F48;
+}
+.dws-menu li > ul li ul{
+
+ top: 0;
+}
+.dws-menu li:hover > ul{
+ display: block;
+
+
+}

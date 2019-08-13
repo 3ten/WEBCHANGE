@@ -1,0 +1,71 @@
+/*Стиль - Левого меню */
+.left_menu{
+    margin: 60px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width:100%;
+    background: #EEEEF9;
+}
+.left_menu_navigation {
+    margin: 60px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
+    width: 100%;
+    font-size: 20px;
+    position: relative;
+}
+.device_menu {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    font-size: 20px;
+}
+.menu_nav_admin,.menu_nav_reports,.menu_nav_device{
+    padding: 0px 0px 8px 0px;
+}
+/*Стили навегационного меню слева при наведении */
+/*Аналитика*/
+.menu_nav_admin:hover{
+    border-radius: 4px;
+    cursor: pointer;
+    color:#8DD1DE;
+}
+/*Отчет*/
+.menu_nav_reports:hover{
+    border-radius: 4px;
+    cursor: pointer;
+    color:#8DD1DE;
+}
+/*Девайсы*/
+.menu_nav_device:hover{
+     border-radius: 4px;
+     cursor: pointer;
+     color:#8DD1DE;
+ }
+/*Формы на данный момент скрыт*/
+.menu_nav_forms:hover{
+    border-radius: 4px;
+    cursor: pointer;
+}
+/*Справочники вложенные*/
+.son_catalog:hover{
+    border-radius: 4px;
+    cursor: pointer;
+    color:#8DD1DE;
+}
+.divice_list_body_row:hover{
+    background: white;
+    border-radius: 4px;
+    border:1px solid;
+    cursor: pointer;
+
+}
+.divice_list_body_row:active{
+    background:  white;
+    border:1px solid;
+    cursor: pointer;
+}
+.son_catalog{
+    font-size:18px;
+    padding: 5px 0px 0px 15px;
+}
+.menu_nav_device{
+    padding: 5px 0px 0px 00px;
+}

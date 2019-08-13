@@ -1,0 +1,119 @@
+/* Стиль - Прового меню  */
+/* Весь блок */
+.right_menu{
+    margin: 50px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: #F1F2FC;
+    width:100%;
+}
+/**********************************************************************************************************************/
+/*СТИЛЬ БОРДОВ НАХОДЯЩИСЯ СВЕРХУ*/
+.mboard_place {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 35px 0px 0px;
+    background: white;
+    width: 100%;
+    border-radius: 0px;
+    border-color:grey;
+    box-shadow: 1px 1px 0px 1px #676767;
+    color:white;
+}
+.mboard_left_face{
+    font-size:40px;
+    padding: 0px 0px 0px 20px;
+    text-align: center;
+
+}
+mboard_right_body{
+    font-size:20px;
+    line-height: 60px;
+}
+.mbord_head_line{
+    padding: 0px 5px 3px 20px;
+    margin:  0px 0px 0px 0px;
+    font-size: 26px;
+    border-bottom: 3px solid white;
+    text-align: right;
+}
+.mbord_footer_line{
+    padding: 2px 5px 2px 30px;
+    margin:  3px 0px 5px 0px;
+    font-size: 14px;
+    text-align: right;
+}
+
+/*СРЕДНИЙ РАБОЧИЙ БОРД*/
+
+.mboard_center{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background: #F1F2FC;
+    width: 100%;
+    border-radius: 0px;
+    border-color:grey;
+    color:white;
+}
+.mbord_body_center{
+    width: 100%;
+}
+.mcenter_head_line_left{
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 10px 5px 10px;
+    border-top-left-radius: 5px;
+
+}
+.mcenter_head_line_right{
+    border-top-right-radius:5px ;
+    text-align: center;
+    font-size: 22px;
+    padding: 5px 10px 5px 10px;
+}
+.mcenter_body_line_left{
+    color:black;
+    font-size: 20px;
+    padding: 5px 10px 5px 30px;
+}
+.mcenter_body_line_right{
+    color:black;
+    font-size: 20px;
+    padding: 5px 10px 5px 30px;
+    border-left:1px solid black;
+}
+.mcenter_user_info_top{
+
+    padding: 0px 0px 0px 0px;
+    height:300px;
+}
+.mcenter_user_info_mid{
+    height:50px;
+    line-height: 25px;
+    background: silver;
+    padding: 0px 0px 0px 0px;
+}
+.mcenter_user_info_bot{
+    background: white;
+    padding: 0px 0px 0px 0px;
+}
+.mcenter_user_info_top  input[type=text] {
+     border-radius: 4px;
+     border: 1px solid black;
+     width:90%;
+     height:30px;
+     line-height: 30px;
+     font-size: 18px;
+     padding: 5px 10px 5px 10px;
+     margin: 5px 10px 5px 10px;
+
+ }
+.mcenter_user_info_top  input[type=password] {
+    border-radius: 4px;
+    width:90%;
+    height:30px;
+    line-height: 30px;
+    font-size: 18px;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 10px 5px 10px;
+    border: 1px solid black;
+
+}
