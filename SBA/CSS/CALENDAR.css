@@ -6,7 +6,7 @@
 body {
 	font-family: Helvetica, "Lucida Grande", "Lucida Sans Unicode", sans-serif;
 	background: white;
-	text-align: center;
+	text-align: left;
 	background: url(../img/body.png) repeat-x;
 }
 body h1 {
@@ -45,7 +45,7 @@ td.date_has_event:hover {
 	background-position: 162px -81px;
 }
 td.padding {
-	background: url(../img/calpad.jpg);
+	/*background: url(img/calpad.jpg);*/
 }
 td.today {
 	background-position: 81px 0px;
@@ -88,4 +88,56 @@ td.today:hover {
 .events li span.title {
 	font-weight: bold;
 	color: #222;
+}
+table {
+	width: 100%;
+	border-collapse: collapse;
+	text-align: left;
+	/*margin-bottom: 5px;*/
+	font-size: 15px;
+	color: #000000;
+}
+
+th.empty {
+	background: #fff;
+}
+
+tr.empty:hover {
+	background: #fff;
+}
+
+th {
+	background-color: #aaaaaa;
+	font-weight: normal;
+	/*font-size: 15px;*/
+	/*padding: 0 10px;*/
+	color: #fff;
+	text-shadow: #414141 0 1px 0px;
+	/*line-height: 40px;*/
+}
+
+tbody tr {
+	font-weight: normal;
+	background-color: #ffffff;
+	/*margin: 5px;*/
+}
+
+tbody tr:nth-child(even) {
+	background-color: #ffffff;
+}
+
+tbody tr:hover {
+	background-color: #eaeaea;
+}
+
+td {
+	padding: 9px 10px;
+	border-left: #d7d7d7 1px solid;
+	border-top: #d7d7d7 1px solid;
+	border-bottom: #d7d7d7 1px solid;
+	/*line-height: 20px;*/
+}
+
+tr td:first-child {
+	border-left: 0;
 }

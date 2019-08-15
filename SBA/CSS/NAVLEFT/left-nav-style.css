@@ -29,14 +29,10 @@
     z-index: 2000;
 }
 
-
 /**
  * Кнопка переключения панели
  * тег <label>
  */
-
-
-
 
 /* определяем текст кнопки
  * символ Unicode (TRIGRAM FOR HEAVEN)
@@ -47,13 +43,11 @@
     text-decoration: none;
 }
 
-
 /* цвет текста при наведении */
 
 .nav-toggle:hover {
     color: #f4f4f4;
 }
-
 
 /**
  * Скрытый чекбокс (флажок)
@@ -61,16 +55,11 @@
  * имя селектора атрибут флажка
  */
 
-
-
-
 /**
  * изменение положения переключателя
  * при просмотре на мобильных устройствах
  * когда навигация раскрыта, распологаем внутри панели
 */
-
-
 
 /**
  * Когда флажок установлен, открывается панель
@@ -79,12 +68,11 @@
 
 .navbar {
     left: 0;
-    box-shadow:4px 0px 20px 0px rgba(0,0,0, 0.5);
-    -moz-box-shadow:4px 0px 20px 0px rgba(0,0,0, 0.5);
-    -webkit-box-shadow:4px 0px 20px 0px rgba(0,0,0, 0.5);
+    box-shadow: 4px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 4px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 4px 0px 20px 0px rgba(0, 0, 0, 0.2);
     overflow-y: auto;
 }
-
 
 /*
  * смещение контента страницы
@@ -98,17 +86,15 @@
     transform: translateX(320px);
 }
 
-
 /*
  * изменение символа переключателя,
  * привычный крестик (MULTIPLICATION X),
  * вы можете испльзовать любой другой значок
 */
 
- .nav-toggle:after {
+.nav-toggle:after {
     content: '\2715';
 }
-
 
 /**
  * профиксим баг в Android <= 4.1.2
@@ -121,10 +107,9 @@ body {
 
 @-webkit-keyframes bugfix {
     to {
-      padding: 0;
+        padding: 0;
     }
 }
-
 
 /**
  * позаботьтимся о средних и маленьких экранах
@@ -134,23 +119,23 @@ body {
 @media screen and (min-width: 320px) {
     html,
     body {
-      margin: 0;
-      overflow-x: hidden;
+        margin: 0;
+        overflow-x: hidden;
     }
 }
 
 @media screen and (max-width: 320px) {
     html,
     body {
-      margin: 0;
-      overflow-x: hidden;
+        margin: 0;
+        overflow-x: hidden;
     }
+
     .nav {
-      width: 100%;
-      box-shadow: none
+        width: 100%;
+        box-shadow: none
     }
 }
-
 
 /**
  * Формируем стиль заголовка (логотип) панели
@@ -185,7 +170,6 @@ body {
     text-transform: uppercase;
 }
 
-
 /*плавное появление заголовка (логотипа) при раскрытии панели */
 
 .nav h2 {
@@ -195,7 +179,6 @@ body {
     -moz-transform: scale(1, 1);
     -webkit-transform: scale(1, 1);
 }
-
 
 /**
  * формируем непосредственно само меню
@@ -231,7 +214,6 @@ body {
     transform: translateX(0);
 }
 
-
 /* определяем интервалы появления пунктов меню */
 
 .navbar > ul > li:nth-child(2) {
@@ -264,7 +246,6 @@ body {
     transition: opacity .5s .7s, transform .5s .7s;
 }
 
-
 /**
  * оформление ссылок пунктов меню
  */
@@ -285,7 +266,6 @@ body {
     transition: color .5s ease, padding .5s ease;
 }
 
-
 /**
  * состояние ссылок меню при наведении
  */
@@ -295,7 +275,6 @@ body {
     color: white;
     padding-left: 15px;
 }
-
 
 /**
  * линия подчеркивания ссылок меню
@@ -326,7 +305,6 @@ body {
     transition: width .5s ease;
 }
 
-
 /**
  * анимируем линию подчеркивания
  * ссылок при наведении
@@ -345,7 +323,6 @@ body {
     -webkit-transition: width 0s ease;
     transition: width 0s ease;
 }
-
 
 /* фон затемнения на основной контент
  * при этом элементы блокируютя
@@ -375,35 +352,34 @@ body {
 }
 */
 
-@media (min-width: 768px) {
-    .navbar-container {
-        position: sticky;
-        top: 0;
-        overflow-y: auto;
-        height: 100vh;
-        /*max-width: 300px;*/
-    }
+/*.navbar-container {*/
+    /*position: sticky;*/
+    /*top: 0;*/
+    /*overflow-y: auto;*/
+    /*height: 100vh;*/
+    /*!*max-width: 300px;*!*/
+/*}*/
 
-    .navbar-container .navbar {
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        height: 100%;
-    }
-
-    .navbar-container .navbar-collapse {
-        align-items: flex-start;
-    }
-
-    .navbar-container .nav {
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .navbar-container .navbar-nav {
-        flex-direction: column !important;
-    }
+.navbar-container .navbar {
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: 100%;
 }
+
+.navbar-container .navbar-collapse {
+    align-items: flex-start;
+}
+
+.navbar-container .nav {
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.navbar-container .navbar-nav {
+    flex-direction: column !important;
+}
+
 
 
